@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "add-csp": "ts-node add-csp-header.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

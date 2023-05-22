@@ -5,7 +5,7 @@ export default function Home(): JSX.Element {
 		<header id="header">
 		    <div className="container">
 		      <h1>
-			      <Link href="index.html">Atanas Pozharliev1</Link>
+			      <Link href="/">Atanas Pozharliev</Link>
 			  </h1>
 
 		      <h2>Software Developer & High School Student</h2>
@@ -13,38 +13,35 @@ export default function Home(): JSX.Element {
 		      <nav id="navbar" className="navbar">
 		        <ul>
 		          <li>
-			          <Link className="active" href="#header">Home</Link>
+			          <Link className="active" href="/">Home</Link>
 				  </li>
 		          <li>
-			          <Link href="#about">About</Link>
+			          <Link href="/about">About</Link>
 				  </li>
 		          <li>
-			          <Link href="#resume">Resume</Link>
+			          <Link href="/resume">Resume</Link>
 				  </li>
 		          <li>
-			          <Link href="#services">Services</Link>
+			          <Link href="/services">Services</Link>
 				  </li>
 		          <li>
-			          <Link href="#portfolio">Portfolio</Link>
+			          <Link href="/portfolio">Portfolio</Link>
 				  </li>
 		          <li>
-			          <Link href="#contact">Contact</Link>
+			          <Link href="/contact">Contact</Link>
 				  </li>
 		        </ul>
 		      </nav>
 
 		      <div className="social-links">
-					<Link href="#">
-				        <i className="bi bi-twitter"/>
+					<Link href="mailto:atanas.pozharliev@gmail.com">
+						<i className="bi bi-envelope"/>
 					</Link>
-					<Link href="#">
-				        <i className="bi bi-facebook"/>
+					<Link href="https://www.linkedin.com/in/atanas-pozharliev/" target="_blank">
+						<i className="bi bi-linkedin"/>
 					</Link>
-					<Link href="#">
-				        <i className="bi bi-instagram"/>
-					</Link>
-					<Link href="#">
-				     <i className="bi bi-linkedin"/>
+					<Link href="https://github.com/ABPozharliev19" target="_blank">
+						<i className="bi bi-github"/>
 					</Link>
 		      </div>
 
