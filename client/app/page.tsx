@@ -5,7 +5,7 @@ export default function Home(): JSX.Element {
 		<header id="header">
 		    <div className="container">
 		      <h1>
-			      <Link href="index.html">Atanas Pozharliev</Link>
+			      <Link href="index.html">Atanas Pozharliev1</Link>
 			  </h1>
 
 		      <h2>Software Developer & High School Student</h2>
