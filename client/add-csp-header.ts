@@ -3,13 +3,13 @@ const fs = require("fs");
 const outputDir = "dist"; // Specify the output directory where the Next.js export is generated
 
 // CSP header configuration
-const cspHeader = "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self'\">";
+const cspHeader = "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self';\">";
 
 // Function to add CSP header to HTML files
 const addCspHeader = (filePath: string) => {
 	try {
 		let html = fs.readFileSync(filePath, "utf-8");
-		html = html.replace(/<head>/, `<head>${cspHeader}`);
+		html = html.replace("/</head>/", `${cspHeader}</head>`);
 		fs.writeFileSync(filePath, html);
 		console.log(`Added CSP header to ${filePath}`);
 	} catch (error) {
