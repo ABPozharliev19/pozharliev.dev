@@ -17,8 +17,6 @@ export default function RootLayout({
 				<link href="css/glightbox/css/glightbox.min.css" rel="stylesheet" />
 				<link href="css/remixicon/remixicon.css" rel="stylesheet" />
 				<link href="css/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-				<script src="js/main.js" defer />
 			</head>
 			<body>
 				{children}
