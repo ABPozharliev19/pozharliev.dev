@@ -90,109 +90,129 @@ export default function About(): JSX.Element {
 				<div className="row">
 					<div className="col-lg-3 col-md-4">
 						<div className="icon-box">
+							<img src="icons/python.png" />
 							<h3>Python</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4 mt-md-0">
 						<div className="icon-box">
+							<img src="icons/typescript.png" />
 							<h3>TypeScript</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4 mt-md-0">
 						<div className="icon-box">
+							<img src="icons/database.png" />
 							<h3>Data & Related</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
 						<div className="icon-box">
+							<img src="icons/others.png" />
 							<h3>Others</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/django.png" />
 							<h3>Django (DRF) </h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/react.png" />
 							<h3>React & Redux</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/postgre.png" />
 							<h3>PostgreSQL</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/wordpress.png" />
 							<h3>Wordpress & Woocommerce</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/fastapi.png" />
 							<h3>FastAPI</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/next.png" />
 							<h3>Next.js</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/mysql.png" />
 							<h3>MySQL</h3>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/strapi.png" />
 							<h3>Strapi</h3>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/scrapy.png" />
 							<h3>Scrapy</h3>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/express.png" />
 							<h3>Express.js, Fastify</h3>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/mssql.png" />
 							<h3>SQL Server</h3>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/azure.png" />
 							<h3>Azure</h3>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/selenium.png" />
 							<h3>Selenium</h3>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/node.png" />
 							<h3>Node.js</h3>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/elasticsearch.png" />
 							<h3>Elasticsearch</h3>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-md-4 mt-4">
 						<div className="icon-box">
+							<img src="icons/docker.png" />
 							<h3>Docker</h3>
 						</div>
 					</div>

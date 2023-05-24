@@ -15,39 +15,36 @@
     font-size: 20px;
   }
 
-}
-
-.about-me .content ul {
-  list-style: none;
-  padding: 0;
-
-  font-size: 20px;
-}
-
-.about-me .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.about-me .content ul strong {
-  margin-right: 10px;
-}
-
-.about-me .content ul i {
-  font-size: 20px;
-  margin-right: 5px;
-  color: #18d26e;
-  line-height: 0;
-}
-
-.about-me .content {
   .text {
     margin-bottom: 10px;
   }
 
   p:last-child {
     margin-bottom: 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    font-size: 20px;
+
+    li {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    strong {
+      margin-right: 10px;
+    }
+
+    i {
+      font-size: 20px;
+      margin-right: 5px;
+      color: #18d26e;
+      line-height: 0;
+    }
   }
 }
 
@@ -57,24 +54,26 @@
   padding: 20px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
-}
 
-.interests .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  line-height: 1;
-}
+  &:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
 
-.interests .icon-box h3 {
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-size: 16px;
-  color: #fff;
-}
+  img, i {
+    font-size: 32px;
+    margin-right: 10px;
+    line-height: 1;
 
-.interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
-}
+    height: 30px;
+    width: 30px;
+  }
 
+  h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 18px;
+    color: #fff;
+  }
+}
