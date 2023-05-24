@@ -1,5 +1,6 @@
 import "./global.scss";
 import "./page.scss";
+import Navbar from "@app/components/navbar";
 
 export default function RootLayout({
 	children,
