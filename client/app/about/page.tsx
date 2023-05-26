@@ -18,7 +18,7 @@ export default function About(): JSX.Element {
 							<img src="profile.png" className="img-fluid" alt="" />
 						</div>
 						<div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-							<h3>Hi, I'm Nasko! 👋 </h3>
+							<h3>Hi, I`& apos;m Nasko! 👋 </h3>
 							<p>
 							A <strong> Software Developer </strong> with more than <strong>{new Date().getFullYear() - 2019} years of experience</strong> based in <strong> Bulgaria. </strong>
 							</p>
