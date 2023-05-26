@@ -11,7 +11,7 @@ export default function Page(): JSX.Element {
 
 					<div className="section-title">
 						<h2>Resume</h2>
-						<p>Check My Resume</p>
+						<p>Checkout My Resume</p>
 					</div>
 
 					<div className="row">
@@ -43,10 +43,16 @@ export default function Page(): JSX.Element {
 							<div className="resume-item pb-0">
 								<h4 style={{ color: "white" }}>Hackathon @ AUBG - 1st Place </h4>
 								<h4 style={{ color: "white" }}>Hackathon @ Asen Zlatarov - 2nd Place</h4>
+								<h4 style={{ color: "white" }}>CISCO IT Essentials</h4>
+								<h4 style={{ color: "white" }}>PMI Project Management Ready</h4>
 							</div>
 						</div>
 						<div className="col-lg-6">
 							<h3 className="resume-title">Professional Experience</h3>
+							<div className="resume-item">
+								<h4>Founder @ Repliki.bg</h4>
+								<h5>June 2023 - Present</h5>
+							</div>
 							<div className="resume-item">
 								<h4>Full Stack Developer @ Strypes</h4>
 								<h5>June 2023 - Present</h5>

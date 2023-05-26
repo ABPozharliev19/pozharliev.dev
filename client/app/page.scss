@@ -88,15 +88,41 @@
 }
 
 @media (max-width: 768px) {
-  #header.header-top {
-    height: 60px;
-  }
+  #header {
+    .header-top {
+      height: 60px;
 
-  #header.header-top h1 {
-    font-size: 26px;
+      h1 {
+       font-size: 26px;
+      }
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 19px;
+    }
+
+    .navbar {
+      margin-top: 2px;
+      ul {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li a {
+          font-size: 16px;
+        }
+      }
+    }
   }
 }
 
+@media (max-width: 1024px) {
+  #header {
+    .navbar {
+      margin-top: 6px;
+    }
+  }
+}
 .navbar {
   padding: 0;
   margin-top: 25px;

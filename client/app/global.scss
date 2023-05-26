@@ -4,6 +4,7 @@
     outline: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    color: #fff;
 }
 
 #root {
@@ -12,9 +13,22 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: #fff;
     position: relative;
     background: transparent;
+
+    a {
+      color: #18d26e;
+      text-decoration: none;
+
+      :hover {
+        color: #35e888;
+      }
+    }
+
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Raleway", sans-serif;
+    }
 
     &::before {
       content: "";
@@ -30,23 +44,18 @@ body {
 }
 
 
-a {
-  color: #18d26e;
-  text-decoration: none;
 
-  :hover {
-    color: #35e888;
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
-}
 
 @media (min-width: 1024px) {
     body::before {
         background-attachment: fixed;
     }
+}
+
+@media(max-width: 1024px) {
+  body::before {
+    background: #191919;
+  }
 }
 
 @media(min-width: 2560px) {
